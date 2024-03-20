@@ -12,8 +12,8 @@ with col1:
     st.image(image,width=300)
 
     st.subheader('☆プロフィール')
-    st.text('木村 彰杜（きむら　あきと）\n'
-            '生年月日 1999年10月20日\n'
+    st.text('木村（きむら）\n'
+            '生年月日 2500年10月20日\n'
             '血液型 B型')
 
     with st.form(key='profile_form'):
