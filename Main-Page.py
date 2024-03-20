@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 st.title('木村 彰杜のホームページ')
 
@@ -30,13 +30,13 @@ with col1:
 with col2:    
     st.subheader('最新研究情報')
 
-    df = pd.read_csv('./data/磁石3760G.csv')
-    fig = plt.figure(figsize=(5.5,5))
-    ax = fig.subplots()
-    ax.plot(df['distance[mm]'],df['magnetic field[G]'])
-    ax.set_xlabel('Distance mm')
-    ax.set_ylabel('Mangnetic field G')
-    st.pyplot(fig)
+    # df = pd.read_csv('./data/磁石3760G.csv')
+    # fig = plt.figure(figsize=(5.5,5))
+    # ax = fig.subplots()
+    # ax.plot(df['distance[mm]'],df['magnetic field[G]'])
+    # ax.set_xlabel('Distance mm')
+    # ax.set_ylabel('Mangnetic field G')
+    # st.pyplot(fig)
 
     st.text('表面磁束3760Gのネオジム磁石の磁場距離依存性\n'
             'を測定しました。')
