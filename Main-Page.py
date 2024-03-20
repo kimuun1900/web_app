@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 # import matplotlib.pyplot as plt
 
-st.title('木村 彰杜のホームページ')
+st.title('木村のホームページ')
 
 col1, col2= st.columns(2)
 
