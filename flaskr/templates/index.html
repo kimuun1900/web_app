@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+
+<div id="Home_title">Home</div>
+
+<div class="homebar">
+    <div class="figure">
+        <img src="images/fig1.jpg"></img>
+    </div>
+
+    <div class="profile">
+        <h2>Profile</h2><br>
+        <p>・名前：{{profile.名前}}</p>
+        <p>・生年月日：{{profile.生年月日}}</p>
+        <p>・血液型：{{profile.血液型}}</p>
+        <p>・趣味：{{profile.趣味}}</p><br><br>
+    </div>
+</div>
+
+{% endblock %}

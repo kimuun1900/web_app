@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimura Akito Home Page</title>
+    <link rel="stylesheet" href="images/style.css">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div  id="Home_figure" >
+        <img src="images/fig4.jpg"></img>
+        <center><p><u>&ensp;木村彰杜のホームページ</u><br>
+        KIMURA AKITO HOME PAGE</p></center>
+    </div>
+    
+    <div id='topbar'>
+        <img src="images/fig5.jpg"></img>
+        <div id="topbar_lists">
+            <div id="topbar1">
+                <p>○&ensp;<a href="{{url_for('home')}}">Home</a></p>
+            </div>
+    
+            <div id="topbar2">
+                <p>。°&ensp;<a href="{{url_for('garary')}}">Garary</a></p>
+            </div>
+    
+            <div id="topbar3">
+                <p>°。&ensp;<a href="{{url_for('syuron')}}">Masters Thesis</a></p>
+            </div>
+        </div>
+    </div>
+    
+    {% block body %}{% endblock %}
+</body>
+</html>
